@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aagam</title>
+   
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Aagam</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="check-symptoms/check-symps.html" class="navbar__links" id="services-page"
+              >Get Consultation </a>
+          </li>
+          <li class="navbar__item">
+            <a href="./hospitals.html" class="navbar__links" id="home-page">Hospitals</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="./contactus.html" class="button" id="signup">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Get the best Possible<span> Consultation</span></h1>
+        <p class="hero__description">Helping Save Lives</p>
+        <button class="main__btn"><a href="#about">Explore</a></button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>What do we do?</h1>
+          <h2>We collect Symptoms </h2>
+          <p>And procees that data to predict the possible diseases a user can have.</p><br>
+          <h2>Connected care at your finger tips</h2>
+          <p>Taking charge of your health care just got easier </p>
+          <!-- <h3>  Aagam is your new connection to supportive care putting access and information securely in the palm of your hands. </h3> -->
+          <a href="./check-symptoms/check-symps.html"><button class="main__btn">Get Consultation</a></button> 
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>Our Services</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Predicting diseases</h2>
+          <p>Data Powered technology which works on predefined data sets and generate the most probable data</p>
+          <div class="services__btn"> <a href="./check-symptoms/check-symps.html"><button>Get Started</button></a></div>
+        </div>
+        <div class="services__card">
+          <h2>Check Your Symptoms</h2>
+          <p>Enter the symptoms and sign up on our web page to get the list of possible diseases</p>
+          <div class="services__btn"><a href="./check-symptoms/check-symps.html"><button>Get Started</button></a></div>
+        </div>
+        <div class="services__card">
+          <h2>Generate Report</h2>
+          <p>We generate a PDF report consisting of all the posiible diseases with a list of all corelated nearby doctors</p>
+          <div class="services__btn"><a href="./check-symptoms/check-symps.html"><button>Get Started</button></a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Join Our community</h1>
+          <h2>Sign Up Today</h2>
+          <p>See what makes us different</p>
+          <button class="main__btn"><a href="./check-symptoms/check-symps.html">Sign Up</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">Aagam</a>
+          </div>
+          <p class="website__rights">© Aagam.org 2022. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <body class="bodychat">
+      <!-- partial:index.partial.html -->
+      <!-- Chatbot -->
+      <div class="botIcon">
+        <div class="botIconContainer">
+          <div class="iconInner">
+            <i class="fa fa-commenting" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="Layout Layout-open Layout-expand Layout-right">
+          <div class="Messenger_messenger">
+            <div class="Messenger_header">
+              <h4 class="Messenger_prompt">How can we help you?</h4> <span class="chat_close_icon"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+            </div>
+            <div class="Messenger_content">
+              <div class="Messages">
+                <div class="Messages_list"></div>
+              </div>
+              <form id="messenger">
+                <div class="Input Input-blank">
+      <!-- 							<textarea name="msg" class="Input_field" placeholder="Send a message..."></textarea> -->
+                  <input name="msg" class="Input_field" placeholder="Send a message...">
+                  <button type="submit" class="Input_button Input_button-send">
+                    <div class="Icon">
+                      <svg viewBox="1496 193 57 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Group-9-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1523.000000, 220.000000) rotate(-270.000000) translate(-1523.000000, -220.000000) translate(1499.000000, 193.000000)">
+                          <path d="M5.42994667,44.5306122 L16.5955554,44.5306122 L21.049938,20.423658 C21.6518463,17.1661523 26.3121212,17.1441362 26.9447801,20.3958097 L31.6405465,44.5306122 L42.5313185,44.5306122 L23.9806326,7.0871633 L5.42994667,44.5306122 Z M22.0420732,48.0757124 C21.779222,49.4982538 20.5386331,50.5306122 19.0920112,50.5306122 L1.59009899,50.5306122 C-1.20169244,50.5306122 -2.87079654,47.7697069 -1.64625638,45.2980459 L20.8461928,-0.101616237 C22.1967178,-2.8275701 25.7710778,-2.81438868 27.1150723,-0.101616237 L49.6075215,45.2980459 C5.08414042,47.7885641 49.1422456,50.5306122 46.3613062,50.5306122 L29.1679835,50.5306122 C27.7320366,50.5306122 26.4974445,49.5130766 26.2232033,48.1035608 L24.0760553,37.0678766 L22.0420732,48.0757124 Z" id="sendicon" fill="#96AAB4" fill-rule="nonzero"></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Chatbot -->
+
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="script.js"></script>
+
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
